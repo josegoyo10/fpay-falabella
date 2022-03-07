@@ -1,0 +1,14 @@
+Hola para ejecutar la API tienes que ir hasta POSTMAN y escribir la siguiente URL en su ambiente local:
+http://127.0.0.1:8000/api/numero-primo con metodo POST en el body le colca el siguiente JSON:
+
+ejem:
+{
+ "numero": 15
+}
+
+{
+ "numero": 7
+}
+
+La logica del calculo esta en la siguiente RUTA: app\Http\Controllers\API\CalculoController.php,y las pruebas unitarias en 
+la ruta:tests\Unit\NumeroPrimoTest.php
